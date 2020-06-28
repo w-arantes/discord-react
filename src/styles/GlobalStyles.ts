@@ -14,6 +14,7 @@ export default createGlobalStyle`
   *, button, input {
     border: 0;
     outline: 0;
+
     font-family: 'Roboto', sans-serif;
   }
 
@@ -33,10 +34,11 @@ export default createGlobalStyle`
     --notification: #f84a4b;
     --discord: #6e86d6;
     --mention-detail: #f9a839;
-    --meintion-message: #413f3f;
+    --mention-message: #413f3f;
 
     --link: #5d80d6;
 
-    --rocket-purple: #7159c1;
+    --react-blue: #61dbfb;
+    --logo-background: rgba(100, 100 ,100 0.1);
   }
 `;
