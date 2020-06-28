@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 import { Props } from '.';
 
@@ -14,7 +14,8 @@ export const Button = styled.button<Props>`
 
   margin-bottom: 8px;
 
-  background-color: ${(props) => props.isHome ? 'var(--logo-background)' : 'var(--primary)'};
+  background-color: ${(props) =>
+    props.isHome ? 'var(--logo-background)' : 'var(--primary)'};
 
   position: relative;
   cursor: pointer;
@@ -49,7 +50,7 @@ export const Button = styled.button<Props>`
     position: absolute;
     bottom: -4px;
     right: -4px;
-    
+
     border-radius: 12px;
     border: 4px solid var(--quarternary);
 
@@ -59,7 +60,8 @@ export const Button = styled.button<Props>`
     color: var(--white);
 
     content: '${(props) => props.mentions && props.mentions}';
-    display: ${(props) => props.mentions && props.mentions > 0 ? 'inline' : 'none'};
+    display: ${(props) =>
+      props.mentions && props.mentions > 0 ? 'inline' : 'none'};
   }
 
   transition: border-radius .2s, background-color .2s;
@@ -67,6 +69,7 @@ export const Button = styled.button<Props>`
   &.active,
   &:hover {
     border-radius: 16px;
-    background-color: ${(props) => props.isHome ? 'var(--white)' : 'var(--discord)'};
+    background-color: ${(props) =>
+      props.isHome ? 'var(--white)' : 'var(--discord)'};
   }
 `;

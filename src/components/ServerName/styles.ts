@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 import { ExpandMore } from 'styled-icons/material';
 
 export const Container = styled.div`
@@ -27,4 +27,3 @@ export const ExpandIcon = styled(ExpandMore)`
   color: var(--white);
   cursor: pointer;
 `;
-

@@ -15,7 +15,7 @@ const ServerButton: React.FC<Props> = ({
   selected,
   isHome,
   hasNotifications,
-  mentions
+  mentions,
 }) => {
   return (
     <Button
@@ -24,7 +24,7 @@ const ServerButton: React.FC<Props> = ({
       mentions={mentions}
       className={selected ? 'active' : ''}
     >
-      {isHome && <img src={Logo} alt="React Logo"/>}
+      {isHome && <img src={Logo} alt="React Logo" />}
     </Button>
   );
 };
