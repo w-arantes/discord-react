@@ -17,9 +17,7 @@ const ChannelInfo: React.FC = () => {
 
       <Separator />
 
-      <Description>
-        Channel open to chat and discussions about React
-      </Description>
+      <Description>Channel open to chat and discuss about React.Js</Description>
     </Container>
   );
 };
