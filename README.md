@@ -21,7 +21,7 @@ Discord UI React
 
 <hr />
 
-## Demo
+[Demo](https://discord-react.netlify.app/)
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/e3c659d2-dbe3-4ccd-b776-60dcf5ceabaa/deploy-status)](https://app.netlify.com/sites/discord-react/deploys)
 
