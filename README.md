@@ -21,6 +21,12 @@ Discord UI React
 
 <hr />
 
+## Demo
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/e3c659d2-dbe3-4ccd-b776-60dcf5ceabaa/deploy-status)](https://app.netlify.com/sites/discord-react/deploys)
+
+
+
 ## About
 
 [Discord](https://discord.com) is a free voice and text chat app.
