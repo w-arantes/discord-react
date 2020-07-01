@@ -1,14 +1,12 @@
 <h1 align="center">
 <br>
-  <img src="LOGO_URL" alt="Discord UI React" width="120">
+  <img src="src/assets/discord-logo.svg" alt="Discord UI React" width="120">
 <br>
 <br>
 Discord UI React
 </h1>
 
 <p align="center">A Discord UI clone with React</p>
-
-About [Discord](https://discord.com) - Free voice and text chat app.
 
 <p align="center">
   <a href="https://opensource.org/licenses/MIT">
@@ -18,26 +16,29 @@ About [Discord](https://discord.com) - Free voice and text chat app.
 
 [//]: # (gifs/images)
 <div>
-  <img src="IMAGE_1_URL" alt="demo" height="425">
-  <img src="IMAGE_2_URL" alt="demo" height="425">
+  <img src="https://res.cloudinary.com/w-arantes/image/upload/v1593565731/discord-react/discord-react-demo_bfirhe.png" alt="Demo Screenshot" height="425">
 </div>
 
 <hr />
 
+## About
+
+[Discord](https://discord.com) is a free voice and text chat app.
+
 ## Features
 
-[//]: # (project features)
-
-
-- ⚛️ **React** — A JavaScript library for building user interfaces
-- 💅 **CSS** — styled-components
+- ⚛️ **React** — A JavaScript library for building user interfaces.
+- :blue_book: **TypeScript** — TypeScript is a typed superset of JavaScript that compiles to plain JavaScript.
+- 💅 **CSS** — styled-components.
 
 - 💖 **Lint** — ESlint/Prettier/Editor Config
 
 ## Getting started
 
-use/install
-
+1. Clone this repo using `https://github.com/w-arantes/discord-react.git`
+2. Move to the appropriate directory: `cd discord-react`.<br />
+3. Run `yarn` to install dependencies.<br />
+4. Run `yarn start` to see the example app at `http://localhost:3000`.
 
 ## License
 
